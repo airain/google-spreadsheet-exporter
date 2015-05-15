@@ -1,9 +1,9 @@
 {
-    "name": "mechastorm/laravel-lang-google-spreadsheet-importer",
+    "name": "airain/google-spreadsheet-exporter",
     "description": "Laravel Artisan Command to generate Laravel Languages files from a Google Spreadsheet",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": ["laravel", "localization", "google", "spreadsheet" ,"artisan"],
-    "homepage": "https://github.com/mechastorm/laravel-lang-google-spreadsheet-importer",
+    "homepage": "https://github.com/airain/google-spreadsheet-exporter",
     "license" : "Apache-2.0",
     "authors": [
         {
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "mechastorm/google-spreadsheet-exporter": "1.*",
+        "airain/google-spreadsheet-exporter": "1.*",
         "illuminate/support": "4.2.*"
     },
     "repositories": [
@@ -29,7 +29,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Mechastorm\\LaravelLangGoogleSpreadsheetImporter\\": "src/"
+            "Airain\\GoogleSpreadsheetImporter\\": "src/"
         }
     }
 }
